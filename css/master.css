@@ -297,57 +297,18 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.feature-headlight{
-  width: 420px;
-  height: 310px;
-}
-.feature-polution-free{
-  width: 420px;
-  height: 350px;
-}
 .feature-img{
   width: 100%;
   height: 190px;
 
 }
-#lights{
-  background-image: url("");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#bio{
-  background-image: url("");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 .feature h4{
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
   margin-bottom: 5px;
 }
-.auto-pilot-section{
-  border-top: 1px solid #2E3138;
-}
-.auto-display{
-  width: 100vw;
-  height: 800px;
-  background-image: url("");
-  background-color: black;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-/*MODEL S*/
 
-.model-s-page {
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
 
 .home-background {
     width: 100%;
@@ -377,9 +338,6 @@ footer {
     width: 150px;
     background-color: rgba(44, 44, 44, 0.54);
     border: none;
-}
-.car-options-mobile {
-display: none;
 }
 
 .home-title {
@@ -416,12 +374,7 @@ display: none;
   .footer-section {
     width: 90%;
   }
-  .car-options{
-    width: 70%;
-    font-size: 12px;
-    display: flex;
-    justify-content: space-around;
-  }
+
 }
 /*Mobile View*/
 
@@ -437,11 +390,7 @@ display: none;
       align-items: baseline;
       justify-content: space-between;
     }
-      .tesla-logo {
-          background-size: 100% 100%;
-          width: 150px;
-          height: 21px;
-      }
+
 
     .hamburger-menu{
       background-image: url("../img/whiteHamburger.png");
@@ -529,18 +478,8 @@ display: none;
 .page{
   margin-bottom: 0;
 }
-.model-s-background {
-    background-size: cover;
-    background-position: center;
-    margin-top: 8vh;
-    padding-top: 0;
-}
-.model-x-background {
-    background-size: cover;
-    background-position: center;
-    margin-top: 8vh;
-    padding-top: 0;
-}
+
+
 .title-options {
     width: 100%;
     height: 10%;
@@ -550,45 +489,6 @@ display: none;
     background: #eee;
     padding: 0 20px 0 20px;
 
-}
-
-.car-title {
-    width: 25%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    color: black;
-    font-size: 22px;
-    font-family: 'Quicksand', sans-serif;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.car-options{
-  display: none;
-}
-.car-options-mobile {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 65%;
-  height: 55%;
-
-}
-.car-options-mobile span{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 45%;
-  color: #eee;
-  background-color: rgba(44, 44, 44, 0.74);
-
-  font-size: 12px;
-  font-family: 'Quicksand', sans-serif;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.model-footer{
-  display: none;
 }
 .section-container{
   height: 955px;
@@ -653,17 +553,5 @@ display: none;
 .feature p{
   width: 100%;
 
-}
-.feature-polution-free{
-  width: 100%;
-
-}
-.feature-img{
-  width: 100%;
-  height: 190px;
-  margin-bottom: 10px;
-}
-.auto-display{
-  height: 155px;
 }
 }
